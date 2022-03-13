@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Frontend Mentor | Todo app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top"></div>
+    <div class="app">
+        <div class="heading flex">
+            <h1>to do</h1>
+            <img src="./images/icon-sun.svg" alt="">
+        </div>
+        <div class="input-list">
+            <span class="btn check"></span>
+            <input placeholder="Create a new todo">
+        </div>
+        <div class="todos-items grid">
+            <ul></ul>
+            <div class="details">
+                <div class="txt">5 items left</div>
+                <div class="filter">
+                    <button class="all filter-selected">All</button>
+                    <button class="active">Active</button>
+                    <button class="completed">Completed</button>
+                </div>
+                <div class="clear">
+                    <button>Clear Completed</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>
